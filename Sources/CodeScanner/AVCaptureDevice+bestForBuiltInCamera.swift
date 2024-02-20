@@ -8,7 +8,7 @@
 
 import AVFoundation
 
-extension AVCaptureDevice {
+public extension AVCaptureDevice {
     
     /// Returns best built in back camera for scanning QR codes zoomed for a given minimum code size.
     static func zoomedCameraForQRCode(withMinimumCodeSize minimumCodeSize: Float = 20) -> AVCaptureDevice? {
